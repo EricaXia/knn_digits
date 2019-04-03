@@ -1,6 +1,6 @@
-# Classification of Handwritten Digits using K-Nearest-Neighbors in R
+# Classification of MNIST Handwritten Digits using K-Nearest-Neighbors in R
 
-Data: Handwritten numerical digits 
+Data: Handwritten numerical digits pulled from MNIST (Modified National Institute of Standards and Technology database)
 
 Model: K-Nearest Neighbors Classifier
 

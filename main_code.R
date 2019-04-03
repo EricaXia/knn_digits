@@ -1,3 +1,5 @@
+## KNN PT I: Using handwritten digits data for 16x16 pixel images (256 pixel values, 1 class label column)
+
 ## ----setup, include=FALSE------------------------------------------------
 knitr::opts_chunk$set(echo = TRUE, include = FALSE, eval = FALSE)
 require(tidyverse)

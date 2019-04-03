@@ -6,6 +6,7 @@ Data: Handwritten numerical digits pulled from MNIST (Modified National Institut
 Model: K-Nearest Neighbors Classifier
 
 [R Code for .txt data (classifying 16x16 pixel images)](https://github.com/EricaXia/knn_digits/blob/main_code/main_code.R)
+
 [R Code for .csv data (classifying 28x28 pixel images)](https://github.com/EricaXia/knn_digits/blob/main_code/main_code_mnist.R)
 
 ## How the KNN Function Works

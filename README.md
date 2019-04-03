@@ -5,6 +5,9 @@ Data: Handwritten numerical digits pulled from MNIST (Modified National Institut
 
 Model: K-Nearest Neighbors Classifier
 
+[R Code for .txt data (classifying 16x16 pixel images)](https://github.com/EricaXia/knn_digits/blob/main_code/main_code.R)
+[R Code for .csv data (classifying 28x28 pixel images)](https://github.com/EricaXia/knn_digits/blob/main_code/main_code_mnist.R)
+
 ## How the KNN Function Works
 
 Using the class labels of the "k" closest neighboring observations from the train set, the KNN algortihm classifies a given observation. The power of the algorithm will depend on the power of "k" and which distance metric is used. Distance metrics include Euclidan, Manhattan, or Minkowski measures of distance.

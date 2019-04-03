@@ -18,13 +18,13 @@ parameter, rather than a distance metric. Each iteration of the loop resulted in
 
 ## Graphically Displaying the Average Digit
 
-![alt text](https://github.com/EricaXia/knn_digits/blob/master/images/knn1.PNG "Average Digit")
+![alt text](https://github.com/EricaXia/knn_digits/blob/main_code/images/knn1.PNG "Average Digit")
 
 The above image shows what each digit looks like on average.
 
 ## Which pixels in the image are best for classification?
 
-![alt text](https://github.com/EricaXia/knn_digits/blob/master/images/knn2.PNG "Average Digit")
+![alt text](https://github.com/EricaXia/knn_digits/blob/main_code/images/knn2.PNG "Average Digit")
 
 This combined variances image plots the variance for every pixel for each digit. The light areas correspond to the pixels with the lowest variance. The dark areas indicate those pixels have high variance. Therefore, the lighter pixels shown in the image are the most
 useful for classification. Pixels in the dark ares with higher variance are least likely to be useful for classification.

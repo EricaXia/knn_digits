@@ -4,9 +4,6 @@ Data: A collection of handwritten numerical digits
 
 Model: K-Nearest Neighbors Classifier
 
-The k-nearest neighbors algorithm classifies an observation based on the class labels of the k nearest observations in the training set (the “neighbors”). The classification power of k-nn depends on the choice of k and on the metric used to measure distance. Common
-distance metrics include include Euclidean, Manhattan, and Minkowski distance.
-
 ## Graphically Displaying the Average Digit
 
 ![alt text](https://github.com/EricaXia/knn_digits/blob/master/images/knn1.PNG "Average Digit")
@@ -21,6 +18,8 @@ This combined variances image plots the variance for every pixel for each digit.
 useful for classification. Pixels in the dark ares with higher variance are least likely to be useful for classification.
 
 ## How the KNN Function Works
+
+Using the class labels of the "k" closest neighboring observations from the train set, the KNN algortihm classifies a given observation. The power of the algorithm will depend on the power of "k" and which distance metric is used. Distance metrics include Euclidan, Manhattan, or Minkowski measures of distance.
 
 ## 10-fold Cross Validation to Estimate the Error Rate for KNN
 
